@@ -25,69 +25,15 @@ It includes large-scale image-text samples collected under diverse lighting, bac
 
 ![Alt Text](dataset.png)
 
-## 1. Dataset Preparation
+## Dataset Download
 
-### Download Dataset
-#### (1) DUO dataset (https://github.com/chongweiliu/DUO)
-#### (2) RUOD dataset (https://github.com/dlut-dimt/RUOD))
 
-### Dataset Structure
-
-Please download and organize the datasets with the following structure:
-
-```text
-datasets/
-├── DUO/
-│   ├── images/
-│   │   ├── train/
-│   │   └── val/
-│   ├── labels/
-│   │   ├── train/
-│   │   └── val/
-│   └── DUO.yaml
-│
-└── RUOD/
-    ├── images/
-    │   ├── train/
-    │   └── val/
-    ├── labels/
-    │   ├── train/
-    │   └── val/
-    └── RUOD.yaml
-```
-
-### Configuration File
-
-Use `datasets/data_RUOD.yaml` to configure the dataset path. An example is shown below:
-
-```yaml
-path: ./datasets/RUOD   # dataset root directory
-train: images/train
-val: images/val
-nc: 10                                   # number of classes
-names: ['holothurian', 'boat', 'echinus', 'starfish', 'fish', 'corals', 'diver', 'cuttlefish', 'turtle', 'jellyfish']
-```
-
-## 2、Pretrained Weights
-
-You can download the pretrained weight file **`rtdetr-r50.pt`** from Baidu Netdisk:
+You can download the Dataset from Baidu Netdisk:
 
 - **Link**: [https://pan.baidu.com/s/1-yge3B-41eaUIiQOyxs0FQ](https://pan.baidu.com/s/1-yge3B-41eaUIiQOyxs0FQ)
 - **Extraction Code**: `PKGR`
-- 
-After downloading, please place the weight file in the appropriate directory before training or evaluation.
 
-## 3. Model Training
 
-```bash
-# Basic training command (using default configuration)
-python3 ./train.py
-```
-## 4. Model Validation
-
-```bash
-# Basic training command (using default configuration)
-python3 ./val.py
 ```
 
 
