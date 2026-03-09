@@ -30,7 +30,7 @@ It includes large-scale image-text samples collected under diverse lighting, bac
 
 You can download the Dataset from Baidu Netdisk:
 
-- **Link**: [https://pan.baidu.com/s/1-yge3B-41eaUIiQOyxs0FQ](https://pan.baidu.com/s/1-yge3B-41eaUIiQOyxs0FQ)
-- **Extraction Code**: `PKGR`
+- **Link**: [https://pan.baidu.com/s/1dU2DGdH1m90C9MblMKfjxA](https://pan.baidu.com/s/1dU2DGdH1m90C9MblMKfjxA)
+- **Extraction Code**: `KOQR`
 
 
