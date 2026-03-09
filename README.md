@@ -11,7 +11,9 @@
 
 # Introduction
 
-This repository presents **WM-DETR**, a robust underwater object detection framework that integrates **wavelet-based frequency decomposition**, state-space modeling (Mamba), and sparse adaptive interaction.Underwater detection is severely affected by light attenuation, scattering noise, color distortion, low contrast, and small objects. WM-DETR addresses these challenges by decomposing visual features into frequency sub-bands and modeling them using dual-branch state-space representations.Our framework improves detection robustness by suppressing background noise while preserving fine structural details, achieving strong performance on challenging underwater benchmarks.
+This repository presents **HMR-1**, a hierarchical massage robot framework for embodied healthcare.  
+HMR-1 integrates a **high-level acupoint grounding module** powered by vision-language models and a **low-level control module** for trajectory planning and robotic execution. To support this task, we construct **MedMassage-12K**, a multimodal dataset containing large-scale acupoint images and QA pairs under diverse lighting and background conditions.  
+Our framework enables robots to understand natural language instructions, localize target acupoints, and perform precise massage actions in real-world environments.
 
 ![Alt Text](illustrates.png)
 ---
