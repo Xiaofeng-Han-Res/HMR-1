@@ -34,6 +34,3 @@ You can download the Dataset from Baidu Netdisk:
 - **Extraction Code**: `PKGR`
 
 
-```
-
-
