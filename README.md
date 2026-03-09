@@ -18,7 +18,12 @@ Our framework enables robots to understand natural language instructions, locali
 ![Alt Text](illustrates.png)
 ---
 
-# Quick Start
+# Dataset
+
+**MedMassage-12K** is a multimodal dataset for embodied massage and acupoint grounding.  
+It includes large-scale image-text samples collected under diverse lighting, background, and pose conditions, and is designed to support language-guided acupoint localization, multimodal reasoning, and robotic massage execution in real-world healthcare scenarios.
+
+![Alt Text](illustrates.png)
 
 ## 1. Dataset Preparation
 
